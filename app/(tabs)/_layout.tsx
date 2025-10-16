@@ -12,7 +12,19 @@ export default function TabLayout() {
       <Tabs.Screen
         name="index"
         options={{
-          title: 'Home',
+          title: '홈',
+        }}
+      />
+      <Tabs.Screen
+        name="my"
+        options={{
+          title: '내 프로필',
+        }}
+      />
+      <Tabs.Screen
+        name="mission"
+        options={{
+          title: '미션',
         }}
       />
       <Tabs.Screen

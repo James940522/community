@@ -1,5 +1,12 @@
-import { View } from 'react-native';
+import { Text, View } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 export default function TabTwoScreen() {
-  return <View></View>;
+  return (
+    <SafeAreaView>
+      <View>
+        <Text>Explore</Text>
+      </View>
+    </SafeAreaView>
+  );
 }
